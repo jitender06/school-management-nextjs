@@ -122,6 +122,7 @@ const FormModal = ({
   const [open, setOpen] = useState(false);
 
   const Form = () => {
+    
     const [state, formAction] = useFormState(deleteActionMap[table], {
       success: false,
       error: false,

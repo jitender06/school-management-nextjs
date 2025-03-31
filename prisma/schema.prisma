@@ -21,7 +21,7 @@ model Student {
   phone       String?      @unique
   address     String
   img         String?
-  bloodType   String
+  bloodType   String?
   sex         UserSex
   createdAt   DateTime     @default(now())
   parentId    String
